@@ -1,4 +1,4 @@
-### How ***not*** to use Multiprocessing on Single GPU Guide
+### How ** not ** to use Multiprocessing on Single GPU Guide
 
 Batch size: 128; num_workers in DataLoader (CPU specific)
 
