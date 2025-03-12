@@ -1,4 +1,4 @@
-Batch size: 128
+Batch size: 128; num_workers in DataLoader (CPU specific)
 
 - Normal Training: 19secs
 - MultiProcessing with num_process = 6 --> shared_memory with num_workers = 0  ===> 1min 10secs
