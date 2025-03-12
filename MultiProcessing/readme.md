@@ -2,7 +2,7 @@
 
 Batch size: 128; num_workers in DataLoader (CPU specific)
 
-
+### WRONG APPROACH CODE
 Spawn Method:
 - Normal Training: 19secs
 - MultiProcessing with num_process = 6 --> shared_memory with num_workers = 0  ===> 1min 10secs
@@ -15,7 +15,11 @@ ForkServer Methods:
 Fork Method:
 - Didn't worked, staled
 
+### CORRECT APPROACH CODE 
+- MultiProcessing with num_process = 6 --> shared_memory with num_workers = 0  ===> 1min 38secs
 
+
+#### WILL NEED TO TRY CONCURRENT PROCESS - PYTHON
 
 References:
 1. https://medium.com/%40heyamit10/how-to-use-pytorch-multiprocessing-0ddd2014f4fd
