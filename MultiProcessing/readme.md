@@ -13,7 +13,7 @@ ForkServer Methods:
 - MultiProcessing with num_process = 6 --> shared_memory with num_workers = 0  ===> 1min 19secs
 
 Fork Method:
-- MultiProcessing with num_process = 6 --> shared_memory with num_workers = 0  ===> 1min 10secs
+- Didn't worked, staled
 
 
 
