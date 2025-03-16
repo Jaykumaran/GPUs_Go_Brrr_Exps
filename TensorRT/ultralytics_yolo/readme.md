@@ -27,3 +27,9 @@ Speed: 1.7ms preprocess, 2.9ms inference, 0.7ms postprocess per image at shape (
 `model = YOLO('yolov8n_openvino_model/', task = 'detect')`
 
 `Speed: 2.1ms preprocess, 34.6ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)`
+
+
+**Torchscript**
+`model.export(format = "openvino", device = 0 , save = True)`
+`model = YOLO('yolov8n.torchscript', task = 'detect')`
+`Speed: 1.7ms preprocess, 3.0ms inference, 1.0ms postprocess per image at shape (1, 3, 640, 640)`
