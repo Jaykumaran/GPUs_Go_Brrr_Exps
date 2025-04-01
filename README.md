@@ -8,4 +8,8 @@ Let's Hop in!
 
 
 
-**Oopes: Training will freeze if master node is not rank 0**
+To look back:
+
+1. **Oopes: Training will freeze if master node is not rank 0**
+
+2. The master node needs password-less access to all the worker nodes. 
